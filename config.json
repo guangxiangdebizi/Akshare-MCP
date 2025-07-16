@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "akshare-mcp": {
+      "type": "sse",
+      "url": "http://127.0.0.1:8005/sse",
+      "timeout": 60,
+      "description": "AkShare金融数据MCP服务器"
+    }
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8005,
+    "transport": "sse"
+  }
+} 
